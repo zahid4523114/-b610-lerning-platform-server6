@@ -9,9 +9,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send(courses);
 });
-app.get("/category", (req, res) => {
-  res.send(category);
-});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
